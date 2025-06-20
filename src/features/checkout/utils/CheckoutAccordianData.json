@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "title": "Add Delivery Address",
+    "icon": "ri-map-pin-line",
+    "content": [
+      {
+        "id": 1,
+        "title": "Home",
+        "address": "123 Main Street, New York, NY 10001",
+        "isDefault": true
+      },
+      {
+        "id": 2,
+        "title": "Office",
+        "address": "123 Main Street, New York, NY 10001"
+      }
+    ],
+    "btn": "add new address",
+    "aria_labelledby": "headingOne",
+    "data_bs_target": "collapseOne",
+    "aria_expanded": "true"
+  },
+  {
+    "id": 2,
+    "title": "Payment Method",
+    "icon": "ri-bank-card-2-line",
+    "aria_labelledby": "headingTwo",
+    "data_bs_target": "collapseTwo",
+    "content": [
+      {
+        "id": 1,
+        "title": "Pay with Paypal",
+        "img": "https://brandlogos.net/wp-content/uploads/2021/11/paypal-logo.png",
+        "para": "You will be redirected to Paypal to complete the purchase."
+      },
+      {
+        "id": 2,
+        "title": "Credit / Debit Card",
+        "img": "https://static.thenounproject.com/png/2006164-200.png",
+        "para": "We accept Mastercard, Visa, Discover and Stripe.",
+        "card": true
+      },
+      {
+        "id": 3,
+        "title": "Pay with Payoneer",
+        "img": "https://logosandtypes.com/wp-content/uploads/2020/08/payoneer.svg",
+        "para": "You will be redirected to Payoneer to complete the purchase."
+      },
+      {
+        "id": 4,
+        "title": "Cash on Delivery",
+        "img": "https://cdn.iconscout.com/icon/free/png-256/free-cash-on-delivery-icon-download-in-svg-png-gif-file-formats--payment-hand-food-services-pack-icons-1569374.png",
+        "para": "Pay with cash when your order is delivered."
+      }
+    ]
+  }
+]

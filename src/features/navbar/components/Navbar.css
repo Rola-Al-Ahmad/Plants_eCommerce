@@ -1,0 +1,142 @@
+.nav {
+  padding: 0 8% !important;
+}
+
+.logo a {
+  font-family: var(--playball-font);
+  font-size: 2.5rem;
+  font-weight: 700 !important;
+  color: var(--black-color);
+}
+
+.logo a span {
+  font-family: var(--playball-font);
+  color: var(--primary-color);
+}
+
+.navbar-expand-lg .navbar-collapse {
+  justify-content: flex-end;
+}
+
+.collapse,
+.collapsing {
+  transition: height 0.6s ease;
+}
+
+.menu .nav-item a {
+  font-size: 1.2rem;
+  font-family: var(--roboto-font);
+  font-weight: 600;
+  transition: var(--transition-regular);
+  position: relative;
+  color: var(--light-text);
+}
+
+.menu .nav-item a::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--primary-color);
+  transition: var(--transition-regular);
+}
+
+.navbar-nav .nav-link.active {
+  color: var(--light-text) !important;
+}
+
+.menu .nav-item a:hover::after,
+.menu .nav-item a.active::after {
+  width: 100%;
+}
+
+.menu .nav-item .nav-icons a:hover::after {
+  width: 0;
+}
+
+.menu .nav-item:hover a {
+  font-weight: 400;
+}
+
+.nav-icons {
+  position: relative;
+}
+
+.nav-icons::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -18%;
+  width: 1.5px;
+  height: 100%;
+  background-color: #c5c4c4;
+}
+
+@media (max-width: 992px) {
+  .nav-icons::after {
+    display: none;
+  }
+}
+
+.nav-icons i {
+  font-size: 1.3rem;
+  color: var(--black-color);
+  transition: var(--transition-regular);
+}
+
+.nav-icons i:hover {
+  color: var(--primary-color);
+}
+
+.wishlist-count,
+.cart-count {
+  top: 5% !important;
+  right: -50% !important;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  padding: 10px !important;
+  border-radius: 100% !important;
+  height: 15px !important;
+  width: 15px !important;
+  font-size: 13px !important;
+  font-weight: 600;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+}
+
+.sign-up-title,
+.search-title {
+  font-family: var(--lora-font);
+  font-size: 1.5rem;
+}
+
+.btn-signup {
+  background-color: var(--primary-color) !important;
+  width: 100%;
+}
+
+.btn-signup:hover {
+  background-color: #154917e5 !important;
+}
+
+.terms a {
+  color: var(--primary-color) !important;
+}
+
+.close-modal {
+  top: 5% !important;
+  right: 5% !important;
+}
+
+.search-close {
+  top: 25px !important;
+}
+
+.btn-close:focus,
+.navbar-toggler:focus {
+  box-shadow: none;
+}

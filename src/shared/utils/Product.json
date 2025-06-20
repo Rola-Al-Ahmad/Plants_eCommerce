@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "Areca Palm",
+    "price": 100.0,
+    "offerPrice": 85.0,
+    "image": "/images/areca-palm.jpg",
+    "secondImage": "/images/areca-palm-2.jpg",
+    "rating": 5,
+    "description": "A tropical indoor plant with lush green fronds, perfect for brightening up living spaces and purifying air."
+  },
+  {
+    "id": 2,
+    "name": "Sansevieria Plant",
+    "price": 30.0,
+    "offerPrice": 25.0,
+    "image": "/images/sansevieria.jpg",
+    "secondImage": "/images/sansevieria-2.jpg",
+    "rating": 4.5,
+    "description": "Also known as the Snake Plant, it's one of the easiest houseplants to care for. Thrives in low light."
+  },
+  {
+    "id": 3,
+    "name": "Dracaena Plant",
+    "price": 250.0,
+    "offerPrice": 200.0,
+    "image": "/images/dracaena.jpg",
+    "secondImage": "/images/dracaena-2.jpg",
+    "rating": 3.5,
+    "description": "An elegant plant with long, glossy leaves. Ideal for homes and offices needing a touch of greenery."
+  },
+  {
+    "id": 4,
+    "name": "Phalaenopsis Orchid",
+    "price": 400.0,
+    "offerPrice": 360.0,
+    "image": "/images/phalaenopsis-orchid.jpg",
+    "secondImage": "/images/phalaenopsis-orchid-2.jpg",
+    "rating": 3,
+    "description": "A graceful flowering plant with vibrant blooms. Best placed in bright, indirect sunlight."
+  },
+  {
+    "id": 5,
+    "name": "Big Bonsai Plant",
+    "price": 100.0,
+    "offerPrice": 90.0,
+    "image": "/images/big-bonsai.jpg",
+    "secondImage": "/images/big-bonsai-2.jpg",
+    "rating": 4,
+    "description": "A beautifully shaped bonsai that adds a sense of tranquility and elegance to any room."
+  },
+  {
+    "id": 6,
+    "name": "Anthurium Plant",
+    "price": 35.0,
+    "offerPrice": 29.99,
+    "image": "/images/anthurium.jpg",
+    "secondImage": "/images/anthurium-2.jpg",
+    "rating": 5,
+    "description": "Famous for its heart-shaped leaves and red flowers. A stunning addition to indoor plant collections."
+  },
+  {
+    "id": 7,
+    "name": "Azalea Plant",
+    "price": 20.0,
+    "offerPrice": 17.0,
+    "image": "/images/azalea.jpg",
+    "secondImage": "/images/azalea-2.jpg",
+    "rating": 3.5,
+    "description": "A bright and bushy flowering plant, perfect for adding color to windowsills and balconies."
+  },
+  {
+    "id": 8,
+    "name": "Hydrangea Plant",
+    "price": 25.0,
+    "offerPrice": 23.0,
+    "image": "/images/hydrangea.jpg",
+    "secondImage": "/images/hydrangea-2.jpg",
+    "rating": 5,
+    "description": "Known for its large, colorful flower clusters. A charming plant for both indoor and outdoor settings."
+  },
+  {
+    "id": 9,
+    "name": "Baby Rose Plant",
+    "price": 20.0,
+    "offerPrice": 15.0,
+    "image": "/images/baby-rose.jpg",
+    "secondImage": "/images/baby-rose-2.jpg",
+    "rating": 5,
+    "description": "Delicate miniature roses that bring classic beauty and a sweet scent to any corner of your home."
+  },
+  {
+    "id": 10,
+    "name": "Kalanchoe Plant",
+    "price": 20.0,
+    "offerPrice": 18.0,
+    "image": "/images/kalanchoe.jpg",
+    "secondImage": "/images/kalanchoe-2.jpg",
+    "rating": 4.5,
+    "description": "A succulent plant with colorful blooms. Very easy to care for and great for gifting."
+  },
+  {
+    "id": 11,
+    "name": "Mini Bonsai Plant",
+    "price": 45.0,
+    "offerPrice": 40.0,
+    "image": "/images/mini-bonsai.jpg",
+    "secondImage": "/images/mini-bonsai-2.jpg",
+    "rating": 5,
+    "description": "A small and elegant bonsai perfect for tabletops and shelves. A true symbol of peace and patience."
+  },
+  {
+    "id": 12,
+    "name": "Olive Plant",
+    "price": 30.0,
+    "offerPrice": 27.0,
+    "image": "/images/olive-plant.jpg",
+    "secondImage": "/images/olive-plant-2.jpg",
+    "rating": 5,
+    "description": "A Mediterranean classic with silvery leaves and symbolic meaning. A hardy indoor ornamental plant."
+  },
+  {
+    "id": 13,
+    "name": "Lucky Bamboo",
+    "price": 30.0,
+    "offerPrice": 22.0,
+    "image": "/images/lucky-bamboo.jpg",
+    "secondImage": "/images/lucky-bamboo-2.jpg",
+    "rating": 3.5,
+    "description": "Considered a symbol of luck and good fortune. Easy to grow in water or soil with minimal light."
+  },
+  {
+    "id": 14,
+    "name": "Croton Plant",
+    "price": 65.0,
+    "offerPrice": 59.99,
+    "image": "/images/croton.jpg",
+    "secondImage": "/images/croton-2.jpg",
+    "rating": 4,
+    "description": "A colorful foliage plant with bright variegated leaves. A striking choice for bold interior decoration."
+  },
+  {
+    "id": 15,
+    "name": "Spider Plant",
+    "price": 12.0,
+    "offerPrice": 10.0,
+    "image": "/images/spider-plant.jpg",
+    "secondImage": "/images/spider-plant-2.jpg",
+    "rating": 5,
+    "description": "One of the most popular houseplants. Known for its air-purifying qualities and cascading leaves."
+  },
+  {
+    "id": 16,
+    "name": "Ficus Lyrata",
+    "price": 100.0,
+    "offerPrice": 90.0,
+    "image": "/images/ficus-lyrata.jpg",
+    "secondImage": "/images/ficus-lyrata-2.jpg",
+    "rating": 4,
+    "description": "Also known as the Fiddle Leaf Fig, this stylish plant adds drama with its large violin-shaped leaves."
+  }
+]

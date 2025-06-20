@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "Mastering the Art of Remote Work",
+    "image": "../assets/blog-1.jpeg",
+    "categories": ["Business", "Productivity", "Work From Home"],
+    "date": "January 10, 2025",
+    "author": "Samantha Carter",
+    "description": "Explore the essential tools, habits, and routines needed to stay productive and balanced while working remotely."
+  },
+  {
+    "id": 2,
+    "title": "The Future of AI in Marketing",
+    "image": "../assets/blog-2.jpeg",
+    "categories": ["Technology", "Marketing", "AI"],
+    "date": "February 18, 2025",
+    "author": "Liam Jones",
+    "description": "Discover how artificial intelligence is transforming customer engagement, and marketing automation."
+  },
+  {
+    "id": 3,
+    "title": "10 Mindful Habits to Start Your Day Right",
+    "image": "../assets/blog-3.jpeg",
+    "categories": ["Wellness", "Mindfulness", "Lifestyle"],
+    "date": "March 2, 2025",
+    "author": "Emily Tran",
+    "description": "Adopt these 10 simple habits to improve focus, reduce stress, and create a more intentional morning routine."
+  },
+  {
+    "id": 4,
+    "title": "Beginner’s Guide to Investing in Crypto",
+    "image": "../assets/blog-4.jpeg",
+    "categories": ["Finance", "Cryptocurrency", "Technology"],
+    "date": "March 14, 2025",
+    "author": "Alex Moreno",
+    "description": "A simplified guide for new investors looking to understand the crypto market and start investing wisely."
+  },
+  {
+    "id": 5,
+    "title": "Design Thinking for Startups",
+    "image": "../assets/blog-5.jpeg",
+    "categories": ["Business", "Startups", "Design"],
+    "date": "April 1, 2025",
+    "author": "Nina Patel",
+    "description": "Learn how design thinking can help startups innovate, solve problems, and build user-centered products."
+  },
+  {
+    "id": 6,
+    "title": "The Psychology Behind Effective Branding",
+    "image": "../assets/blog-6.jpeg",
+    "categories": ["Marketing", "Branding", "Psychology"],
+    "date": "April 20, 2025",
+    "author": "David Kim",
+    "description": "Understand the psychological principles that shape consumer perception and build lasting brand loyalty."
+  },
+  {
+    "id": 7,
+    "title": "How to Stay Fit Without a Gym",
+    "image": "../assets/blog-7.jpeg",
+    "categories": ["Fitness", "Health", "Lifestyle"],
+    "date": "May 5, 2025",
+    "author": "Rachel Green",
+    "description": "A practical guide to staying active with home workouts, bodyweight exercises, and simple fitness habits."
+  },
+  {
+    "id": 8,
+    "title": "A Digital Nomad’s Guide to Southeast Asia",
+    "image": "../assets/blog-8.jpeg",
+    "categories": ["Travel", "Remote Work", "Lifestyle"],
+    "date": "May 12, 2025",
+    "author": "Jason Lee",
+    "description": "Top destinations, coworking spaces, and travel tips for remote workers exploring Southeast Asia."
+  },
+  {
+    "id": 9,
+    "title": "Sustainable Living: Where to Start",
+    "image": "../assets/blog-9.jpeg",
+    "categories": ["Environment", "Lifestyle", "Sustainability"],
+    "date": "May 14, 2025",
+    "author": "Sophia Ahmed",
+    "description": "Begin your journey to a greener lifestyle with small, impactful changes in daily habits and consumption."
+  },
+  {
+    "id": 10,
+    "title": "Understanding the Basics of SEO in 2025",
+    "image": "../assets/blog-10.jpeg",
+    "categories": ["Technology", "Marketing", "SEO"],
+    "date": "May 16, 2025",
+    "author": "Editor",
+    "description": "A beginner-friendly overview of modern SEO strategies to help your website rank higher in search results."
+  }
+]

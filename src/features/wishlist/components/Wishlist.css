@@ -1,0 +1,61 @@
+.empty-wishlist {
+  padding: 40px 20px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.empty-image {
+  width: 250px;
+  height: auto;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.empty-wishlist .title {
+  margin-top: 2rem !important;
+}
+
+.subtitle {
+  font-size: 0.9rem;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.table-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.btn-shop {
+  display: inline-block;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  width: auto;
+}
+
+.btn-danger {
+  background-color: rgb(175, 45, 45) !important;
+}
+
+.btn-danger:hover {
+  background-color: rgb(143, 33, 33) !important;
+}
+
+.table-btn {
+  font-size: 1.2rem;
+  width: 70px !important;
+  height: 40px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 !important;
+}

@@ -1,0 +1,13 @@
+.product-name {
+  font-family: var(--lora-font);
+  font-size: 1.2rem;
+}
+
+.checkout-btn {
+  width: 250px !important;
+}
+
+.quantity-input input {
+  width: 80px !important;
+  text-align: center;
+}

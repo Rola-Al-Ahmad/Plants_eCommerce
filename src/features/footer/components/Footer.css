@@ -1,0 +1,283 @@
+.footer-bg {
+  background-image: url(assets/footer-bg.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.footer-bg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.507);
+}
+
+.footer-bg > * {
+  position: relative;
+  z-index: 1;
+}
+
+.footer-logo a {
+  color: rgb(255, 242, 0);
+  font-size: 2.2rem;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.footer-logo a span {
+  color: var(--white-color);
+}
+
+.footer-social {
+  margin-top: 1.5rem;
+}
+
+.footer-social i {
+  width: 20px;
+  height: 20px;
+  font-size: 15px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  background-color: var(--white-color);
+  color: var(--primary-color);
+  transition: var(--transition-regular);
+}
+
+.footer-social i:hover {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  transform: translateY(-3px);
+}
+
+.newsletter-wrap {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.newsletter-wrap h5 {
+  margin-bottom: 1rem;
+}
+
+.newsletter-wrap p {
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+}
+
+.newsletter-wrap input {
+  padding: 12px 15px !important;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--white-color);
+}
+
+.newsletter-wrap input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.send-mail-icon {
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  color: var(--primary-color);
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: var(--transition-regular);
+}
+
+.send-mail-icon:hover {
+  color: var(--white-color);
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.footer-bottom p a {
+  color: var(--white-color);
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: var(--transition-regular);
+}
+
+.footer-bottom p a:hover {
+  color: var(--primary-color);
+}
+
+.payment-img {
+  text-align: end;
+}
+
+.payment-img img {
+  max-width: 250px;
+  height: auto;
+}
+
+/* Media Queries */
+@media (max-width: 991px) {
+  .footer-logo a {
+    font-size: 2rem;
+  }
+
+  .newsletter-wrap {
+    margin-top: 2rem;
+  }
+
+  .footer-social {
+    justify-content: center !important;
+  }
+
+  .footer-bottom {
+    text-align: center;
+  }
+
+  .payment-img {
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .payment-img img {
+    max-width: 200px;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer-logo a {
+    font-size: 1.8rem;
+  }
+
+  .footer-social i {
+    width: 30px;
+    height: 30px;
+    font-size: 16px !important;
+  }
+
+  .newsletter-wrap {
+    padding: 1.5rem;
+  }
+
+  .newsletter-wrap input {
+    padding: 10px 15px !important;
+  }
+
+  .footer-bottom p {
+    font-size: 0.8rem;
+  }
+
+  .payment-img img {
+    max-width: 180px;
+  }
+}
+
+@media (max-width: 575px) {
+  .footer-logo a {
+    font-size: 1.6rem;
+  }
+
+  .footer-social i {
+    width: 28px;
+    height: 28px;
+    font-size: 14px !important;
+    margin: 0 3px;
+  }
+
+  .newsletter-wrap {
+    padding: 1rem;
+  }
+
+  .newsletter-wrap h5 {
+    font-size: 1.1rem;
+  }
+
+  .newsletter-wrap p {
+    font-size: 0.8rem;
+  }
+
+  .newsletter-wrap input {
+    padding: 8px 12px !important;
+    font-size: 0.9rem;
+  }
+
+  .send-mail-icon {
+    font-size: 1.2rem;
+  }
+
+  .footer-bottom p {
+    font-size: 0.75rem;
+  }
+
+  .payment-img img {
+    max-width: 150px;
+  }
+
+  .footer-menu {
+    text-align: center;
+  }
+
+  .footer-menu a {
+    display: block;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 490px) {
+  .footer-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start !important;
+  }
+
+  .footer-menu a {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .footer-logo a {
+    font-size: 1.4rem;
+  }
+
+  .footer-social i {
+    width: 25px;
+    height: 25px;
+    font-size: 12px !important;
+    margin: 0 2px;
+  }
+
+  .newsletter-wrap h5 {
+    font-size: 1rem;
+  }
+
+  .newsletter-wrap p {
+    font-size: 0.75rem;
+  }
+
+  .newsletter-wrap input {
+    padding: 6px 10px !important;
+    font-size: 0.8rem;
+  }
+
+  .send-mail-icon {
+    font-size: 1.1rem;
+  }
+
+  .footer-bottom p {
+    font-size: 0.7rem;
+  }
+
+  .payment-img img {
+    max-width: 120px;
+  }
+}
