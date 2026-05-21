@@ -2,6 +2,12 @@
 
 Leafcraft is a modern, responsive e-commerce platform built with React and Vite, designed for plant lovers and gardening enthusiasts. It offers a seamless shopping experience for browsing, learning about, and purchasing a wide variety of plants and gardening supplies.
 
+## 🔗 Live Demo
+
+👉 [View Deployed App](https://Rola-Al-Ahmad.github.io/leafcraft/)
+
+---
+
 ## Features
 
 - **Shop**: Explore a diverse catalog of plants and gardening products
@@ -82,13 +88,3 @@ Contributions are welcome! To contribute:
 3. Commit your changes (`git commit -m 'Add YourFeature'`)
 4. Push to your branch (`git push origin feature/YourFeature`)
 5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-Created by [Rola Al-Ahmad](https://github.com/Rola-Al-Ahmad)
-
-Project Repository: [https://github.com/Rola-Al-Ahmad/Plants_eCommerce](https://github.com/Rola-Al-Ahmad/Plants_eCommerce)

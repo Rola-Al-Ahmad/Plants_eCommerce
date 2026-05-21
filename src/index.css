@@ -395,12 +395,12 @@ body {
   }
 
   .hero-content h1 {
-    font-size: 2rem !important;
+    font-size: 1.5rem !important;
   }
 
   .hero-content p {
     width: 75% !important;
-    font-size: 13px !important;
+    font-size: 12px !important;
   }
 
   .parallax-banner {
@@ -420,6 +420,14 @@ body {
   .brand-swiper,
   .product-swiper {
     width: 80% !important;
+  }
+
+  .product-swiper-prev {
+    left: 43% !important;
+  }
+
+  .product-swiper-next {
+    left: 57% !important;
   }
 
   .about-row > .about-col {
@@ -451,19 +459,19 @@ body {
 
 @media (max-width: 575px) {
   .banner-content {
-    width: 76% !important;
+    width: 71% !important;
   }
 
   .banner-content-2 {
-    left: 88% !important;
+    left: 89% !important;
   }
 
   .banner-content h3 {
-    font-size: 1.2rem !important;
+    font-size: 1.1rem !important;
   }
 
   .banner-content h1 {
-    font-size: 1.4rem !important;
+    font-size: 0.9rem !important;
   }
 }
 
@@ -632,4 +640,3 @@ body {
     color: var(--primary-color);
   }
 }
-

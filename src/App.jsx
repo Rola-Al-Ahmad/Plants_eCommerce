@@ -2,7 +2,6 @@ import {
   createBrowserRouter,
   createRoutesFromElements,
   Route,
-  RouterProvider,
 } from "react-router-dom";
 
 import RootLayout from "./shared/layouts/RootLayout";
@@ -14,7 +13,6 @@ import Blog from "./features/blog/Blog";
 import Checkout from "./features/checkout/CheckoutIndex";
 import CartIndex from "./features/cart/CartIndex";
 import WishlistIndex from "./features/wishlist/WishlistIndex";
-
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
