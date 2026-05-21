@@ -26,6 +26,7 @@ export const router = createBrowserRouter(
       <Route path="cart" element={<CartIndex />} />
       <Route path="wishlist" element={<WishlistIndex />} />
       {/* <Route path="*" element={<NotFound />} /> */}
-    </Route>
-  )
+    </Route>,
+  ),
+  { basename: "/Plants_eCommerce/" },
 );
