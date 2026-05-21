@@ -1,6 +1,6 @@
 {
-  "name": "leafcraft",
-  "homepage": "https://Rola-Al-Ahmad.github.io/leafcraft/",
+  "name": "plants-ecommerce",
+  "homepage": "https://Rola-Al-Ahmad.github.io/Plants_eCommerce",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -15,7 +15,6 @@
   "dependencies": {
     "bootstrap": "^5.3.6",
     "bootstrap-icons": "^1.13.1",
-    "gh-pages": "^6.3.0",
     "react": "^19.1.0",
     "react-bootstrap": "^2.10.10",
     "react-dom": "^19.1.0",
