@@ -1,11 +1,11 @@
 import React from "react";
 
-import service_icon1 from "../../../../public/assets/service-icon1.svg";
-import service_icon2 from "../../../../public/assets/service-icon2.svg";
+import service_icon1 from "../../../assets/service-icon1.svg";
+import service_icon2 from "../../../assets/service-icon2.svg";
 
-import delivery_icon from "../../../../public/assets/delivery.jpg";
-import logo from "../../../../public/assets/plantLogo.jpg";
-import plants from "../../../../public/assets/plants.jpg";
+import delivery_icon from "../../../assets/delivery.jpg";
+import logo from "../../../assets/plantLogo.jpg";
+import plants from "../../../assets/plants.jpg";
 
 import ImageCollage from "./ImageCollage ";
 import TextContent from "./TextContent";

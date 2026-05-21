@@ -1,14 +1,14 @@
 import React, { useMemo } from "react";
 
-import about_hero from "../../../../public/assets/about-img-1.jpg";
+import about_hero from "../../../assets/about-img-1.jpg";
 
-import about1 from "../../../../public/assets/about-svg-1.svg";
-import about2 from "../../../../public/assets/about-svg-2.svg";
-import about3 from "../../../../public/assets/about-svg-3.svg";
+import about1 from "../../../assets/about-svg-1.svg";
+import about2 from "../../../assets/about-svg-2.svg";
+import about3 from "../../../assets/about-svg-3.svg";
 
-import about1White from "../../../../public/assets/about-white-svg-1.svg";
-import about2White from "../../../../public/assets/about-white-svg-2.svg";
-import about3White from "../../../../public/assets/about-white-svg-3.svg";
+import about1White from "../../../assets/about-white-svg-1.svg";
+import about2White from "../../../assets/about-white-svg-2.svg";
+import about3White from "../../../assets/about-white-svg-3.svg";
 
 import Container from "../../../shared/components/atoms/Container";
 import SectionTitle from "../../../shared/components/atoms/SectionTitle";
@@ -36,11 +36,11 @@ const About = () => {
         imageWhite: about3White,
       },
     ],
-    []
+    [],
   );
 
   const { onMouseEnter, onMouseLeave } = useImageHoverSwap("about-svg", about);
-  
+
   return (
     <Container>
       <div className="row align-items-center">

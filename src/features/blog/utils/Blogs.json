@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Mastering the Art of Remote Work",
-    "image": "../assets/blog-1.jpeg",
+    "image": "src/assets/blog-1.jpeg",
     "categories": ["Business", "Productivity", "Work From Home"],
     "date": "January 10, 2025",
     "author": "Samantha Carter",
@@ -11,7 +11,7 @@
   {
     "id": 2,
     "title": "The Future of AI in Marketing",
-    "image": "../assets/blog-2.jpeg",
+    "image": "src/assets/blog-2.jpeg",
     "categories": ["Technology", "Marketing", "AI"],
     "date": "February 18, 2025",
     "author": "Liam Jones",
@@ -20,7 +20,7 @@
   {
     "id": 3,
     "title": "10 Mindful Habits to Start Your Day Right",
-    "image": "../assets/blog-3.jpeg",
+    "image": "src/assets/blog-3.jpeg",
     "categories": ["Wellness", "Mindfulness", "Lifestyle"],
     "date": "March 2, 2025",
     "author": "Emily Tran",
@@ -29,7 +29,7 @@
   {
     "id": 4,
     "title": "Beginner’s Guide to Investing in Crypto",
-    "image": "../assets/blog-4.jpeg",
+    "image": "src/assets/blog-4.jpeg",
     "categories": ["Finance", "Cryptocurrency", "Technology"],
     "date": "March 14, 2025",
     "author": "Alex Moreno",
@@ -38,7 +38,7 @@
   {
     "id": 5,
     "title": "Design Thinking for Startups",
-    "image": "../assets/blog-5.jpeg",
+    "image": "src/assets/blog-5.jpeg",
     "categories": ["Business", "Startups", "Design"],
     "date": "April 1, 2025",
     "author": "Nina Patel",
@@ -47,7 +47,7 @@
   {
     "id": 6,
     "title": "The Psychology Behind Effective Branding",
-    "image": "../assets/blog-6.jpeg",
+    "image": "src/assets/blog-6.jpeg",
     "categories": ["Marketing", "Branding", "Psychology"],
     "date": "April 20, 2025",
     "author": "David Kim",
@@ -56,7 +56,7 @@
   {
     "id": 7,
     "title": "How to Stay Fit Without a Gym",
-    "image": "../assets/blog-7.jpeg",
+    "image": "src/assets/blog-7.jpeg",
     "categories": ["Fitness", "Health", "Lifestyle"],
     "date": "May 5, 2025",
     "author": "Rachel Green",
@@ -65,7 +65,7 @@
   {
     "id": 8,
     "title": "A Digital Nomad’s Guide to Southeast Asia",
-    "image": "../assets/blog-8.jpeg",
+    "image": "src/assets/blog-8.jpeg",
     "categories": ["Travel", "Remote Work", "Lifestyle"],
     "date": "May 12, 2025",
     "author": "Jason Lee",
@@ -74,7 +74,7 @@
   {
     "id": 9,
     "title": "Sustainable Living: Where to Start",
-    "image": "../assets/blog-9.jpeg",
+    "image": "src/assets/blog-9.jpeg",
     "categories": ["Environment", "Lifestyle", "Sustainability"],
     "date": "May 14, 2025",
     "author": "Sophia Ahmed",
@@ -83,7 +83,7 @@
   {
     "id": 10,
     "title": "Understanding the Basics of SEO in 2025",
-    "image": "../assets/blog-10.jpeg",
+    "image": "src/assets/blog-10.jpeg",
     "categories": ["Technology", "Marketing", "SEO"],
     "date": "May 16, 2025",
     "author": "Editor",

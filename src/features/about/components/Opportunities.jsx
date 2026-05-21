@@ -1,6 +1,6 @@
 import React, { useMemo, useCallback } from "react";
 
-import idea1 from "../../../../public/assets/idea1.jpg";
+import idea1 from "../../../assets/idea1.jpg";
 
 import Container from "../../../shared/components/atoms/Container";
 

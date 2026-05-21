@@ -1,6 +1,6 @@
 import React from "react";
 
-import emptyWishlistImage from "../../../../public/assets/emptyWishlistImage.png";
+import emptyWishlistImage from "../../../assets/emptyWishlistImage.png";
 
 import TBody from "../../../shared/components/molecules/TBody";
 

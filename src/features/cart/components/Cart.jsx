@@ -3,7 +3,7 @@ import useCartContext from "../hooks/useCartContext";
 
 import CartTotals from "./CartTotals";
 
-import emptyCartImage from "../../../../public/assets/emptyCartImage.png";
+import emptyCartImage from "../../../assets/emptyCartImage.png";
 
 import TBody from "../../../shared/components/molecules/TBody";
 import TableWithActions from "../../../shared/components/templates/TableWithActions";

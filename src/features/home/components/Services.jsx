@@ -1,14 +1,14 @@
 import React, { useMemo } from "react";
 
-import service1 from "../../../../public/assets/service-icon1.svg";
-import service2 from "../../../../public/assets/service-icon2.svg";
-import service3 from "../../../../public/assets/service-icon3.svg";
-import service4 from "../../../../public/assets/service-icon4.svg";
+import service1 from "../../../assets/service-icon1.svg";
+import service2 from "../../../assets/service-icon2.svg";
+import service3 from "../../../assets/service-icon3.svg";
+import service4 from "../../../assets/service-icon4.svg";
 
-import service1Hover from "../../../../public/assets/service-icon1-1.svg";
-import service2Hover from "../../../../public/assets/service-icon2-2.svg";
-import service3Hover from "../../../../public/assets/service-icon3-3.svg";
-import service4Hover from "../../../../public/assets/service-icon4-4.svg";
+import service1Hover from "../../../assets/service-icon1-1.svg";
+import service2Hover from "../../../assets/service-icon2-2.svg";
+import service3Hover from "../../../assets/service-icon3-3.svg";
+import service4Hover from "../../../assets/service-icon4-4.svg";
 
 import SectionTitle from "../../../shared/components/atoms/SectionTitle";
 import useImageHoverSwap from "../../../shared/hooks/useImageHoverSwap";
@@ -41,12 +41,12 @@ const Services = () => {
         imageHover: service4Hover,
       },
     ],
-    []
+    [],
   );
 
   const { onMouseEnter, onMouseLeave } = useImageHoverSwap(
     "service-img",
-    services
+    services,
   );
 
   return (

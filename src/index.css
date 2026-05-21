@@ -422,11 +422,13 @@ body {
     width: 80% !important;
   }
 
-  .product-swiper-prev {
+  .product-swiper-prev,
+  .blog-swiper-prev.swiper-prev {
     left: 43% !important;
   }
 
-  .product-swiper-next {
+  .product-swiper-next,
+  .blog-swiper-next {
     left: 57% !important;
   }
 

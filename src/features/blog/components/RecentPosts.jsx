@@ -1,10 +1,10 @@
 import React, { useMemo } from "react";
 
-import blog1 from "../../../../public/assets/Blog1.jpg";
-import blog2 from "../../../../public/assets/Blog2.jpg";
-import blog3 from "../../../../public/assets/Blog3.jpg";
-import blog4 from "../../../../public/assets/Blog4.jpg";
-import blog5 from "../../../../public/assets/Blog5.jpg";
+import blog1 from "../../../assets/Blog1.jpg";
+import blog2 from "../../../assets/Blog2.jpg";
+import blog3 from "../../../assets/Blog3.jpg";
+import blog4 from "../../../assets/Blog4.jpg";
+import blog5 from "../../../assets/Blog5.jpg";
 
 const RecentPosts = () => {
   const asideBlogs = useMemo(

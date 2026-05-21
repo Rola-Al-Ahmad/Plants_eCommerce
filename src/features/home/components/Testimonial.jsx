@@ -5,9 +5,9 @@ import "swiper/css";
 import "swiper/css/effect-fade";
 import "swiper/css/navigation";
 
-import user1 from "../../../../public/assets/user1.jpg";
-import user2 from "../../../../public/assets/user2.jpg";
-import user3 from "../../../../public/assets/user3.jpg";
+import user1 from "../../../assets/user1.jpg";
+import user2 from "../../../assets/user2.jpg";
+import user3 from "../../../assets/user3.jpg";
 
 const Testimonial = () => {
   const testimonials = useMemo(
@@ -37,7 +37,7 @@ const Testimonial = () => {
           "Your selection is fantastic! I bought the Mini Bonsai and Lucky Bamboo for my home and classroom. Not only do they bring charm, but they also spark interest among my students. Highly recommended for plant lovers!",
       },
     ],
-    []
+    [],
   );
 
   return (

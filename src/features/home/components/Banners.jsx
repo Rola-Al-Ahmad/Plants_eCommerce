@@ -1,9 +1,9 @@
 import React, { useMemo } from "react";
 
-import subBanner1 from "../../../../public/assets/sub-banner-1-1.jpg";
-import subBanner2 from "../../../../public/assets/sub-banner-2-1.jpg";
-import cmsBanner1 from "../../../../public/assets/cms-banner-1.jpg";
-import cmsBanner2 from "../../../../public/assets/cms-banner-2.jpg";
+import subBanner1 from "../../../assets/sub-banner-1-1.jpg";
+import subBanner2 from "../../../assets/sub-banner-2-1.jpg";
+import cmsBanner1 from "../../../assets/cms-banner-1.jpg";
+import cmsBanner2 from "../../../assets/cms-banner-2.jpg";
 import Button from "../../../shared/components/atoms/Button";
 
 const Banners = ({ cms }) => {

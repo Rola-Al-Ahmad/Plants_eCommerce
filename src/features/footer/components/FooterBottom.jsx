@@ -1,6 +1,6 @@
 import React from "react";
 
-import payment from "../../../../public/assets/payment.png";
+import payment from "../../../assets/payment.png";
 
 const FooterBottom = () => {
   return (

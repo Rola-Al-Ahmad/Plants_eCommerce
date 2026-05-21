@@ -6,7 +6,7 @@
 
 .hero-wrap {
   height: 90vh;
-  background-image: url(assets/main-banner-1.jpg);
+  background-image: url(../../../assets/main-banner-1.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -45,7 +45,7 @@
 }
 
 .hero-wrap2 {
-  background-image: url(assets/main-banner-2.jpg);
+  background-image: url(../../../assets/main-banner-2.jpg);
 }
 
 .swiper-button-prev::after,
@@ -373,7 +373,7 @@
 
 .parallax-banner {
   background-attachment: fixed;
-  background-image: url(assets/parallax-banner-1.jpg);
+  background-image: url(../../../assets/parallax-banner-1.jpg);
   height: 70vh;
 }
 
@@ -394,7 +394,7 @@
 
 .testimonial {
   background-color: #f5f5f5;
-  background-image: url(assets/testimonials-bg-Copy.png);
+  background-image: url(../../../assets/testimonials-bg-Copy.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

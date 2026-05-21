@@ -6,15 +6,15 @@ import "swiper/css";
 import "swiper/css/effect-fade";
 import "swiper/css/navigation";
 
-import brand1 from "../../../../public/assets/brand-1.png";
-import brand2 from "../../../../public/assets/brand-2.png";
-import brand3 from "../../../../public/assets/brand-3.png";
-import brand4 from "../../../../public/assets/brand-4.png";
-import brand5 from "../../../../public/assets/brand-5.png";
+import brand1 from "../../../assets/brand-1.png";
+import brand2 from "../../../assets/brand-2.png";
+import brand3 from "../../../assets/brand-3.png";
+import brand4 from "../../../assets/brand-4.png";
+import brand5 from "../../../assets/brand-5.png";
 
 const Brands = () => {
   const [isLargeScreen, setIsLargeScreen] = useState(
-    () => window.innerWidth >= 1399
+    () => window.innerWidth >= 1399,
   );
 
   const handleResize = useCallback(() => {
@@ -34,7 +34,7 @@ const Brands = () => {
       { id: 4, image: brand4, title: "Green Leaves Pure Florist" },
       { id: 5, image: brand5, title: "Garten Center Florist" },
     ],
-    []
+    [],
   );
 
   return (
