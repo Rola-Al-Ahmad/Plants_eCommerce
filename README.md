@@ -4,7 +4,7 @@ Leafcraft is a modern, responsive e-commerce platform built with React and Vite,
 
 ## 🔗 Live Demo
 
-👉 [View Deployed App](https://Rola-Al-Ahmad.github.io/Plants_eCommerce/)
+👉 [View Deployed App](https://Rola-Al-Ahmad.github.io/Plants_eCommerce)
 
 ---
 
